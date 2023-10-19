@@ -13,7 +13,7 @@ import java.io.File;
  */
 public class Demo {
     public static void main(String[] args) throws TesseractException {
-        File image = new File("c:\\Work\\_UTCN\\exemple-isp-2023\\exemple-curs4-oopdetails\\nr5.jpg");
+        File image = new File("c:\\Work\\_UTCN\\exemple-isp-2023\\exemple-curs4-oopdetails\\nr2.jpg");
         Tesseract tesseract = new Tesseract();
         tesseract.setDatapath("c:\\Program Files\\Tesseract-OCR\\tessdata\\");
         tesseract.setLanguage("eng");
