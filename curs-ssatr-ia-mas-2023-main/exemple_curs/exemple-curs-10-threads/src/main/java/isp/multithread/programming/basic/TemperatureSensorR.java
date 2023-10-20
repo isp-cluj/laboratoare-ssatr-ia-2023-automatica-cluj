@@ -29,7 +29,7 @@ public class TemperatureSensorR implements Runnable{
         
         Random r = new Random();
         int k = 0;
-        while(k<10){
+        while(k<10000){
             try {
                 k++;
                 value = r.nextInt(100);
