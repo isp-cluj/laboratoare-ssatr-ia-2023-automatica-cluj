@@ -22,6 +22,7 @@
     <organization>
         <name>Technical University of Cluj-Napoca</name>
     </organization>
+    
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

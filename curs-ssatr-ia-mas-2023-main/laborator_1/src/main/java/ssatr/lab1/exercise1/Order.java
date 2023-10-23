@@ -18,12 +18,7 @@ public class Order {
     public Order(String orderId) {
         this.orderId = orderId;
     }
-    
-    public Order(String orderId, ArrayList<Product> products) {
-        this.orderId = orderId;
-        this.products = products;
-    }
-    
+
     public void addProduct(Product p){
         products.add(p);
     }
